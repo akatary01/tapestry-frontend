@@ -38,7 +38,7 @@ export const usePlayerStore = create<PlayerState>((set, get) => {
             state.tiles.push(tile);
         },
         
-
+        // deperecated
         advanceTrack: (track) => {
             const state = get();
             if (track === chosenTrackEnum.EXPLORATION_TRACK_CHOSEN) {
